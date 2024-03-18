@@ -14,7 +14,8 @@ body{
 }
 #bg{
     background-image: url(Assets/Brown\ Vintage\ Old\ Paper\ and\ Rose\ Zoom\ Virtual\ Background.jpg);
-    width: 80vw;
+    width: 72.5vw;
+    background-size: contain;
     height: 90vh;
     background-repeat: no-repeat;
     border-radius: 20px;
@@ -23,6 +24,7 @@ body{
 form a{
      font-family: "IM Fell English", serif;
     font-style: italic;
+    font-size: 0.9em;
     color: red;
 }
 form a:hover{
@@ -30,30 +32,31 @@ form a:hover{
 }
 #bg h2, #bg h3{
     position: relative;
-    left: 900px;
-    top: 170px;
+    left: 640px;
+    top: 120px;
     font-family: "IM Fell English", serif;
     font-style: italic;
     display: inline-block;
+    font-size: 0.9em;
 }
 form{
     position: relative;
     display: flex;
     flex-direction: column;
     width: 30%;
-    top: 220px;
-    left: 765px;
+    top: 160px;
+    left: 560px;
     gap: 15px;
 }
 form input{
     width: 80%;
-    padding: 1rem;
+    padding: 0.5rem;
     border-radius: 20px;
     border: 0px solid;
     font-family: "IM Fell English", serif;
     font-style: italic;
     background-color: #cbb394;
-    font-size: 1.3em;
+    font-size: 1em;
 }
 form input[type="submit"]:hover{
     background-color: rgb(230, 116, 116);
@@ -64,4 +67,5 @@ form #left{
     position: relative;
     left: 100px;
 }
+  
   
