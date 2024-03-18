@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 99vw;
+    height: 99vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    
+}
+#bg{
+    background-image: url(Assets/Brown\ Vintage\ Old\ Paper\ and\ Rose\ Zoom\ Virtual\ Background.jpg);
+    width: 80vw;
+    height: 90vh;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+form a{
+     font-family: "IM Fell English", serif;
+    font-style: italic;
+    color: red;
+}
+form a:hover{
+    color: rgb(81, 67, 67);
+}
+#bg h2, #bg h3{
+    position: relative;
+    left: 900px;
+    top: 170px;
+    font-family: "IM Fell English", serif;
+    font-style: italic;
+    display: inline-block;
+}
+form{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    top: 220px;
+    left: 765px;
+    gap: 15px;
+}
+form input{
+    width: 80%;
+    padding: 1rem;
+    border-radius: 20px;
+    border: 0px solid;
+    font-family: "IM Fell English", serif;
+    font-style: italic;
+    background-color: #cbb394;
+    font-size: 1.3em;
+}
+form input[type="submit"]:hover{
+    background-color: rgb(230, 116, 116);
+    color: white;
+    cursor: pointer;
+}
+form #left{
+    position: relative;
+    left: 100px;
+}
+  
